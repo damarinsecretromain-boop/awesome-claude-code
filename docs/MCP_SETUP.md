@@ -1,10 +1,9 @@
 # MCP servers for this repository
 
-`.mcp.json` registers four project-scoped MCP servers for Claude Code:
+`.mcp.json` registers three project-scoped MCP servers for Claude Code:
 
 | Server | Transport | Package / endpoint | Required env |
 |---|---|---|---|
-| `perplexity` | stdio | `@perplexity-ai/mcp-server@1.3.0` | `PERPLEXITY_API_KEY` |
 | `firecrawl` | stdio | `firecrawl-mcp@3.38.0` | `FIRECRAWL_API_KEY` |
 | `playwright` | stdio | `@playwright/mcp@0.0.84` (headless) | — |
 | `composio` | http | Composio session MCP URL | `COMPOSIO_MCP_URL`, `COMPOSIO_API_KEY` |
