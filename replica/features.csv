@@ -1,0 +1,39 @@
+feature,area,priority,original,clone,notes
+Connexion Google et email,compte,must,yes,no,usage interne : un seul compte suffit au départ
+Tableau de bord avec choix du mode et projets récents,navigation,must,yes,no,S04
+Formulaire express : thème + idée en une phrase,express,must,yes,no,S06
+Génération du script et découpage en scènes avec dialogues,pipeline,must,yes,no,LLM
+Génération d'une image par scène,pipeline,must,yes,no,via API officielle d'un modèle image
+Animation de chaque image en clip vidéo,pipeline,must,yes,no,image-to-video ; durée 4 à 8 s selon le modèle
+Voix off / dialogues en synthèse vocale,pipeline,must,yes,no,TTS
+Sous-titres synchronisés incrustés,pipeline,must,yes,no,
+Musique de fond,pipeline,must,yes,no,bibliothèque libre de droits ou générée
+Montage final en un fichier vidéo,pipeline,must,yes,no,ffmpeg
+Format vertical 9:16,export,must,yes,no,
+Suivi de la génération en direct étape par étape,pipeline,must,yes,no,S07
+Lecture et téléchargement de la vidéo finie,export,must,yes,no,S08
+Bibliothèque de personnages au visage constant,personnages,must,yes,no,promesse centrale ; images de référence
+Création de personnage par description,personnages,should,yes,no,S13
+Création de personnage depuis une photo,personnages,should,yes,no,consentement requis si c'est une vraie personne
+Thèmes / univers visuels prêts à l'emploi,express,should,yes,no,tes propres réglages ; pas leurs 7 thèmes
+Bouton « suggérer une idée »,express,should,yes,no,
+Séries avec personnages récurrents,séries,should,yes,no,S09
+Suggestion de l'épisode suivant selon l'intrigue,séries,should,yes,no,résumé de l'histoire stocké sur la série
+Studio : éditer une scène (dialogue image mouvement durée),studio,should,yes,no,S11
+Régénérer une seule scène sans tout refaire,studio,should,yes,no,
+Choix du modèle par vidéo ou par scène,studio,should,yes,no,
+Coût estimé avant lancement et journal des coûts,coûts,should,yes,no,remplace les crédits pour un usage interne
+Liste « mes vidéos » avec statuts,navigation,should,yes,no,S14
+Agent IA conversationnel qui pilote la création,agent,could,yes,no,S05 ; LLM avec le pipeline comme outil
+Format horizontal 16:9,export,could,yes,no,
+Voix multilingues,pipeline,could,yes,no,8 langues chez eux
+Sous-titres animés (styles),pipeline,could,yes,no,
+Personnages préréglés,personnages,could,yes,no,à créer toi-même
+Reprise automatique d'une étape échouée,pipeline,could,yes,no,
+Leur modèle vidéo maison,modèles,skip,yes,skip,propriétaire ; utiliser les modèles tiers via API officielle
+Boost : achat d'abonnés,croissance,skip,yes,skip,enfreint les conditions de TikTok et Instagram
+Plans d'abonnement et crédits mensuels,facturation,skip,yes,skip,inutile en usage interne
+Paiement Whop et recharges,facturation,skip,yes,skip,inutile en usage interne
+Interface en 8 langues,i18n,skip,yes,skip,français d'abord
+Communauté et comptes vitrines,marketing,skip,yes,skip,leur réseau ; pas une fonctionnalité
+Pages guides SEO,marketing,skip,yes,skip,pas utile pour un outil interne
