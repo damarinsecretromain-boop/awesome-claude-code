@@ -1,0 +1,49 @@
+{
+  "id": "gta6-001",
+  "name": "Braquage raté au dernier virage",
+  "streamer": "StreamerExemple",
+  "source_url": "https://www.twitch.tv/videos/0000000000",
+  "timestamp": "01:23:45-01:24:31",
+  "duration_s": 46,
+  "moment": {
+    "type": "humour / inattendu",
+    "summary": "Le streamer sème la police puis percute un camion à 10 m de la planque.",
+    "context": "Fuite après un braquage, 3 étoiles de recherche.",
+    "hook": "Il annonce qu'il les a semés.",
+    "progression": "Dernière ligne droite, il se vante devant le chat.",
+    "payoff": "Collision avec un camion juste devant la planque, fou rire."
+  },
+  "video": { "file": "master.mp4", "subtitles_burned": "subs.ass", "subtitles_file": "subs.srt" },
+  "tiktok": {
+    "hook_screen": "Il pensait avoir semé la police…",
+    "hook_variants": ["10 mètres de la planque 😭", "Ne jamais se vanter trop tôt"],
+    "subtitles": "Incrustés (subs.ass), 2–4 mots par ligne",
+    "description": "Il était SI proche de la planque 😭 (live de StreamerExemple)",
+    "hashtags": ["#gta6", "#gtavi", "#gaming", "#gtafail"],
+    "cover": { "frame_s": 41.2, "text": "SI PROCHE 😭" },
+    "publish_time": { "slot": "", "basis": "à définir (données insuffisantes)" },
+    "cta": "Tu aurais pris quel chemin ?"
+  },
+  "youtube_shorts": {
+    "titles": [
+      "Le braquage le plus raté de GTA 6",
+      "Il pensait avoir semé la police… (GTA 6)",
+      "StreamerExemple et le pire timing possible sur GTA 6"
+    ],
+    "recommended_title": "Il pensait avoir semé la police… (GTA 6)",
+    "hook_screen": "Le braquage le plus raté de GTA 6",
+    "description": "Fuite parfaite, police semée… jusqu'au dernier virage.\n\nClip issu du live de StreamerExemple : https://www.twitch.tv/videos/0000000000\n\nAbonne-toi pour les meilleurs moments GTA 6.\n\n#gta6 #gtavi #shorts",
+    "hashtags": ["#gta6", "#gtavi", "#shorts"],
+    "keywords": ["gta 6 braquage", "gta 6 fail", "gta 6 police", "StreamerExemple gta 6"],
+    "cover": { "frame_s": 41.2, "text": "LE PIRE TIMING" },
+    "cta": "Abonne-toi pour les meilleurs moments GTA 6",
+    "category": "Jeux vidéo",
+    "playlist": "GTA 6 — Fails & braquages",
+    "publish_time": { "slot": "", "basis": "à définir (données insuffisantes)" }
+  },
+  "cross_platform": {
+    "tiktok_potential": "Fort : réaction sincère, chute nette.",
+    "shorts_potential": "Fort : compréhensible sans son, sujet recherchable (GTA 6 braquage).",
+    "notes": "Publier le même master sur les deux ; comparer la rétention à J+3."
+  }
+}
